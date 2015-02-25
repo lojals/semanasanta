@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC5CA50A1A9E623E00C0FE5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CA5091A9E623E00C0FE5E /* AppDelegate.swift */; };
+		EC5CA50C1A9E623E00C0FE5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CA50B1A9E623E00C0FE5E /* ViewController.swift */; };
+		EC5CA50F1A9E623E00C0FE5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5CA50D1A9E623E00C0FE5E /* Main.storyboard */; };
+		EC5CA5111A9E623E00C0FE5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5CA5101A9E623E00C0FE5E /* Images.xcassets */; };
+		EC5CA5141A9E623E00C0FE5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5CA5121A9E623E00C0FE5E /* LaunchScreen.xib */; };
+		EC5CA5201A9E623E00C0FE5E /* Semana_SantaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CA51F1A9E623E00C0FE5E /* Semana_SantaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC5CA51A1A9E623E00C0FE5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5CA4FC1A9E623E00C0FE5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC5CA5031A9E623E00C0FE5E;
+			remoteInfo = "Semana Santa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC5CA5041A9E623E00C0FE5E /* Semana Santa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Semana Santa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5CA5081A9E623E00C0FE5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5CA5091A9E623E00C0FE5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC5CA50B1A9E623E00C0FE5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC5CA50E1A9E623E00C0FE5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC5CA5101A9E623E00C0FE5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC5CA5131A9E623E00C0FE5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC5CA5191A9E623E00C0FE5E /* Semana SantaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Semana SantaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5CA51E1A9E623E00C0FE5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5CA51F1A9E623E00C0FE5E /* Semana_SantaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semana_SantaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC5CA5011A9E623E00C0FE5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5CA5161A9E623E00C0FE5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC5CA4FB1A9E623D00C0FE5E = {
+			isa = PBXGroup;
+			children = (
+				EC5CA5061A9E623E00C0FE5E /* Semana Santa */,
+				EC5CA51C1A9E623E00C0FE5E /* Semana SantaTests */,
+				EC5CA5051A9E623E00C0FE5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC5CA5051A9E623E00C0FE5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC5CA5041A9E623E00C0FE5E /* Semana Santa.app */,
+				EC5CA5191A9E623E00C0FE5E /* Semana SantaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC5CA5061A9E623E00C0FE5E /* Semana Santa */ = {
+			isa = PBXGroup;
+			children = (
+				EC5CA5091A9E623E00C0FE5E /* AppDelegate.swift */,
+				EC5CA50B1A9E623E00C0FE5E /* ViewController.swift */,
+				EC5CA50D1A9E623E00C0FE5E /* Main.storyboard */,
+				EC5CA5101A9E623E00C0FE5E /* Images.xcassets */,
+				EC5CA5121A9E623E00C0FE5E /* LaunchScreen.xib */,
+				EC5CA5071A9E623E00C0FE5E /* Supporting Files */,
+			);
+			path = "Semana Santa";
+			sourceTree = "<group>";
+		};
+		EC5CA5071A9E623E00C0FE5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC5CA5081A9E623E00C0FE5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC5CA51C1A9E623E00C0FE5E /* Semana SantaTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5CA51F1A9E623E00C0FE5E /* Semana_SantaTests.swift */,
+				EC5CA51D1A9E623E00C0FE5E /* Supporting Files */,
+			);
+			path = "Semana SantaTests";
+			sourceTree = "<group>";
+		};
+		EC5CA51D1A9E623E00C0FE5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC5CA51E1A9E623E00C0FE5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC5CA5031A9E623E00C0FE5E /* Semana Santa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5CA5231A9E623E00C0FE5E /* Build configuration list for PBXNativeTarget "Semana Santa" */;
+			buildPhases = (
+				EC5CA5001A9E623E00C0FE5E /* Sources */,
+				EC5CA5011A9E623E00C0FE5E /* Frameworks */,
+				EC5CA5021A9E623E00C0FE5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Semana Santa";
+			productName = "Semana Santa";
+			productReference = EC5CA5041A9E623E00C0FE5E /* Semana Santa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC5CA5181A9E623E00C0FE5E /* Semana SantaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5CA5261A9E623E00C0FE5E /* Build configuration list for PBXNativeTarget "Semana SantaTests" */;
+			buildPhases = (
+				EC5CA5151A9E623E00C0FE5E /* Sources */,
+				EC5CA5161A9E623E00C0FE5E /* Frameworks */,
+				EC5CA5171A9E623E00C0FE5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5CA51B1A9E623E00C0FE5E /* PBXTargetDependency */,
+			);
+			name = "Semana SantaTests";
+			productName = "Semana SantaTests";
+			productReference = EC5CA5191A9E623E00C0FE5E /* Semana SantaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC5CA4FC1A9E623E00C0FE5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jorge Ovalle";
+				TargetAttributes = {
+					EC5CA5031A9E623E00C0FE5E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EC5CA5181A9E623E00C0FE5E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EC5CA5031A9E623E00C0FE5E;
+					};
+				};
+			};
+			buildConfigurationList = EC5CA4FF1A9E623E00C0FE5E /* Build configuration list for PBXProject "Semana Santa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC5CA4FB1A9E623D00C0FE5E;
+			productRefGroup = EC5CA5051A9E623E00C0FE5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC5CA5031A9E623E00C0FE5E /* Semana Santa */,
+				EC5CA5181A9E623E00C0FE5E /* Semana SantaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC5CA5021A9E623E00C0FE5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5CA50F1A9E623E00C0FE5E /* Main.storyboard in Resources */,
+				EC5CA5141A9E623E00C0FE5E /* LaunchScreen.xib in Resources */,
+				EC5CA5111A9E623E00C0FE5E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5CA5171A9E623E00C0FE5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC5CA5001A9E623E00C0FE5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5CA50C1A9E623E00C0FE5E /* ViewController.swift in Sources */,
+				EC5CA50A1A9E623E00C0FE5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5CA5151A9E623E00C0FE5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5CA5201A9E623E00C0FE5E /* Semana_SantaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC5CA51B1A9E623E00C0FE5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC5CA5031A9E623E00C0FE5E /* Semana Santa */;
+			targetProxy = EC5CA51A1A9E623E00C0FE5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC5CA50D1A9E623E00C0FE5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5CA50E1A9E623E00C0FE5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC5CA5121A9E623E00C0FE5E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5CA5131A9E623E00C0FE5E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC5CA5211A9E623E00C0FE5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC5CA5221A9E623E00C0FE5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC5CA5241A9E623E00C0FE5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Semana Santa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC5CA5251A9E623E00C0FE5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Semana Santa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC5CA5271A9E623E00C0FE5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Semana SantaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semana Santa.app/Semana Santa";
+			};
+			name = Debug;
+		};
+		EC5CA5281A9E623E00C0FE5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Semana SantaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semana Santa.app/Semana Santa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC5CA4FF1A9E623E00C0FE5E /* Build configuration list for PBXProject "Semana Santa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5CA5211A9E623E00C0FE5E /* Debug */,
+				EC5CA5221A9E623E00C0FE5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5CA5231A9E623E00C0FE5E /* Build configuration list for PBXNativeTarget "Semana Santa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5CA5241A9E623E00C0FE5E /* Debug */,
+				EC5CA5251A9E623E00C0FE5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC5CA5261A9E623E00C0FE5E /* Build configuration list for PBXNativeTarget "Semana SantaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5CA5271A9E623E00C0FE5E /* Debug */,
+				EC5CA5281A9E623E00C0FE5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC5CA4FC1A9E623E00C0FE5E /* Project object */;
+}
