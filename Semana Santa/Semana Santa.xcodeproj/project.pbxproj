@@ -7,12 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FD29F14499688ECA787EED6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AA069DD6FA3226EB19504F /* libPods.a */; };
 		EC5CA50A1A9E623E00C0FE5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CA5091A9E623E00C0FE5E /* AppDelegate.swift */; };
 		EC5CA50C1A9E623E00C0FE5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CA50B1A9E623E00C0FE5E /* ViewController.swift */; };
 		EC5CA50F1A9E623E00C0FE5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5CA50D1A9E623E00C0FE5E /* Main.storyboard */; };
 		EC5CA5111A9E623E00C0FE5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5CA5101A9E623E00C0FE5E /* Images.xcassets */; };
 		EC5CA5141A9E623E00C0FE5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5CA5121A9E623E00C0FE5E /* LaunchScreen.xib */; };
 		EC5CA5201A9E623E00C0FE5E /* Semana_SantaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CA51F1A9E623E00C0FE5E /* Semana_SantaTests.swift */; };
+		EC6335D41AAD45620048A1F7 /* Hill_House.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC6335D11AAD45620048A1F7 /* Hill_House.otf */; };
+		EC6335D51AAD45620048A1F7 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC6335D21AAD45620048A1F7 /* RobotoSlab-Light.ttf */; };
+		EC6335D61AAD45620048A1F7 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC6335D31AAD45620048A1F7 /* RobotoSlab-Regular.ttf */; };
+		EC6335F01AAD4C610048A1F7 /* binding_light.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335D81AAD4C610048A1F7 /* binding_light.png */; };
+		EC6335F11AAD4C610048A1F7 /* binding_light_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335D91AAD4C610048A1F7 /* binding_light_@2X.png */; };
+		EC6335F21AAD4C610048A1F7 /* crossword.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335DA1AAD4C610048A1F7 /* crossword.png */; };
+		EC6335F31AAD4C610048A1F7 /* fabric_of_squares_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335DB1AAD4C610048A1F7 /* fabric_of_squares_gray.png */; };
+		EC6335F41AAD4C610048A1F7 /* fabric_of_squares_gray_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335DC1AAD4C610048A1F7 /* fabric_of_squares_gray_@2X.png */; };
+		EC6335F51AAD4C610048A1F7 /* greyzz.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335DD1AAD4C610048A1F7 /* greyzz.png */; };
+		EC6335F61AAD4C610048A1F7 /* greyzz_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335DE1AAD4C610048A1F7 /* greyzz_@2X.png */; };
+		EC6335F71AAD4C610048A1F7 /* kindajean.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335DF1AAD4C610048A1F7 /* kindajean.png */; };
+		EC6335F81AAD4C610048A1F7 /* kindajean_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335E01AAD4C610048A1F7 /* kindajean_@2X.png */; };
+		EC6335FB1AAD4C610048A1F7 /* p4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335E31AAD4C610048A1F7 /* p4.png */; };
+		EC6335FC1AAD4C610048A1F7 /* p4_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335E41AAD4C610048A1F7 /* p4_@2X.png */; };
+		EC6335FD1AAD4C610048A1F7 /* p5.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335E51AAD4C610048A1F7 /* p5.png */; };
+		EC6335FE1AAD4C610048A1F7 /* p5_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335E61AAD4C610048A1F7 /* p5_@2X.png */; };
+		EC6335FF1AAD4C610048A1F7 /* p6.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335E71AAD4C610048A1F7 /* p6.png */; };
+		EC6336001AAD4C610048A1F7 /* p6_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335E81AAD4C610048A1F7 /* p6_@2X.png */; };
+		EC6336011AAD4C610048A1F7 /* sos.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335E91AAD4C610048A1F7 /* sos.png */; };
+		EC6336021AAD4C610048A1F7 /* squairy_light.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335EA1AAD4C610048A1F7 /* squairy_light.png */; };
+		EC6336031AAD4C610048A1F7 /* squairy_light_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335EB1AAD4C610048A1F7 /* squairy_light_@2X.png */; };
+		EC6336041AAD4C610048A1F7 /* wavegrid.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335EC1AAD4C610048A1F7 /* wavegrid.png */; };
+		EC6336051AAD4C610048A1F7 /* wavegrid_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335ED1AAD4C610048A1F7 /* wavegrid_@2X.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		039466A075663B1C3F01B0BC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		83AF8415BC9F940BE964057D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C5AA069DD6FA3226EB19504F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5CA5041A9E623E00C0FE5E /* Semana Santa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Semana Santa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5CA5081A9E623E00C0FE5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC5CA5091A9E623E00C0FE5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +63,30 @@
 		EC5CA5191A9E623E00C0FE5E /* Semana SantaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Semana SantaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5CA51E1A9E623E00C0FE5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC5CA51F1A9E623E00C0FE5E /* Semana_SantaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semana_SantaTests.swift; sourceTree = "<group>"; };
+		EC6335CC1AAD405B0048A1F7 /* Semana Santa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Semana Santa-Bridging-Header.h"; sourceTree = "<group>"; };
+		EC6335D11AAD45620048A1F7 /* Hill_House.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hill_House.otf; sourceTree = "<group>"; };
+		EC6335D21AAD45620048A1F7 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+		EC6335D31AAD45620048A1F7 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
+		EC6335D81AAD4C610048A1F7 /* binding_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = binding_light.png; sourceTree = "<group>"; };
+		EC6335D91AAD4C610048A1F7 /* binding_light_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "binding_light_@2X.png"; sourceTree = "<group>"; };
+		EC6335DA1AAD4C610048A1F7 /* crossword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crossword.png; sourceTree = "<group>"; };
+		EC6335DB1AAD4C610048A1F7 /* fabric_of_squares_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fabric_of_squares_gray.png; sourceTree = "<group>"; };
+		EC6335DC1AAD4C610048A1F7 /* fabric_of_squares_gray_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fabric_of_squares_gray_@2X.png"; sourceTree = "<group>"; };
+		EC6335DD1AAD4C610048A1F7 /* greyzz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyzz.png; sourceTree = "<group>"; };
+		EC6335DE1AAD4C610048A1F7 /* greyzz_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyzz_@2X.png"; sourceTree = "<group>"; };
+		EC6335DF1AAD4C610048A1F7 /* kindajean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kindajean.png; sourceTree = "<group>"; };
+		EC6335E01AAD4C610048A1F7 /* kindajean_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kindajean_@2X.png"; sourceTree = "<group>"; };
+		EC6335E31AAD4C610048A1F7 /* p4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p4.png; sourceTree = "<group>"; };
+		EC6335E41AAD4C610048A1F7 /* p4_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "p4_@2X.png"; sourceTree = "<group>"; };
+		EC6335E51AAD4C610048A1F7 /* p5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p5.png; sourceTree = "<group>"; };
+		EC6335E61AAD4C610048A1F7 /* p5_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "p5_@2X.png"; sourceTree = "<group>"; };
+		EC6335E71AAD4C610048A1F7 /* p6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p6.png; sourceTree = "<group>"; };
+		EC6335E81AAD4C610048A1F7 /* p6_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "p6_@2X.png"; sourceTree = "<group>"; };
+		EC6335E91AAD4C610048A1F7 /* sos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sos.png; sourceTree = "<group>"; };
+		EC6335EA1AAD4C610048A1F7 /* squairy_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squairy_light.png; sourceTree = "<group>"; };
+		EC6335EB1AAD4C610048A1F7 /* squairy_light_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "squairy_light_@2X.png"; sourceTree = "<group>"; };
+		EC6335EC1AAD4C610048A1F7 /* wavegrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wavegrid.png; sourceTree = "<group>"; };
+		EC6335ED1AAD4C610048A1F7 /* wavegrid_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wavegrid_@2X.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FD29F14499688ECA787EED6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +108,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1519E4C31CBB02E001EE07F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5AA069DD6FA3226EB19504F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC5CA4FB1A9E623D00C0FE5E = {
 			isa = PBXGroup;
 			children = (
 				EC5CA5061A9E623E00C0FE5E /* Semana Santa */,
 				EC5CA51C1A9E623E00C0FE5E /* Semana SantaTests */,
 				EC5CA5051A9E623E00C0FE5E /* Products */,
+				FF860472F9C73220E9D70702 /* Pods */,
+				C1519E4C31CBB02E001EE07F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +139,14 @@
 		EC5CA5061A9E623E00C0FE5E /* Semana Santa */ = {
 			isa = PBXGroup;
 			children = (
+				EC6335D01AAD45620048A1F7 /* Assets */,
 				EC5CA5091A9E623E00C0FE5E /* AppDelegate.swift */,
 				EC5CA50B1A9E623E00C0FE5E /* ViewController.swift */,
 				EC5CA50D1A9E623E00C0FE5E /* Main.storyboard */,
 				EC5CA5101A9E623E00C0FE5E /* Images.xcassets */,
 				EC5CA5121A9E623E00C0FE5E /* LaunchScreen.xib */,
 				EC5CA5071A9E623E00C0FE5E /* Supporting Files */,
+				EC6335CC1AAD405B0048A1F7 /* Semana Santa-Bridging-Header.h */,
 			);
 			path = "Semana Santa";
 			sourceTree = "<group>";
@@ -112,6 +176,53 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EC6335D01AAD45620048A1F7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EC6335D71AAD4C610048A1F7 /* textures */,
+				EC6335D11AAD45620048A1F7 /* Hill_House.otf */,
+				EC6335D21AAD45620048A1F7 /* RobotoSlab-Light.ttf */,
+				EC6335D31AAD45620048A1F7 /* RobotoSlab-Regular.ttf */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		EC6335D71AAD4C610048A1F7 /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				EC6335D81AAD4C610048A1F7 /* binding_light.png */,
+				EC6335D91AAD4C610048A1F7 /* binding_light_@2X.png */,
+				EC6335DA1AAD4C610048A1F7 /* crossword.png */,
+				EC6335DB1AAD4C610048A1F7 /* fabric_of_squares_gray.png */,
+				EC6335DC1AAD4C610048A1F7 /* fabric_of_squares_gray_@2X.png */,
+				EC6335DD1AAD4C610048A1F7 /* greyzz.png */,
+				EC6335DE1AAD4C610048A1F7 /* greyzz_@2X.png */,
+				EC6335DF1AAD4C610048A1F7 /* kindajean.png */,
+				EC6335E01AAD4C610048A1F7 /* kindajean_@2X.png */,
+				EC6335E31AAD4C610048A1F7 /* p4.png */,
+				EC6335E41AAD4C610048A1F7 /* p4_@2X.png */,
+				EC6335E51AAD4C610048A1F7 /* p5.png */,
+				EC6335E61AAD4C610048A1F7 /* p5_@2X.png */,
+				EC6335E71AAD4C610048A1F7 /* p6.png */,
+				EC6335E81AAD4C610048A1F7 /* p6_@2X.png */,
+				EC6335E91AAD4C610048A1F7 /* sos.png */,
+				EC6335EA1AAD4C610048A1F7 /* squairy_light.png */,
+				EC6335EB1AAD4C610048A1F7 /* squairy_light_@2X.png */,
+				EC6335EC1AAD4C610048A1F7 /* wavegrid.png */,
+				EC6335ED1AAD4C610048A1F7 /* wavegrid_@2X.png */,
+			);
+			path = textures;
+			sourceTree = "<group>";
+		};
+		FF860472F9C73220E9D70702 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83AF8415BC9F940BE964057D /* Pods.debug.xcconfig */,
+				039466A075663B1C3F01B0BC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC5CA5231A9E623E00C0FE5E /* Build configuration list for PBXNativeTarget "Semana Santa" */;
 			buildPhases = (
+				B97F50DA0D745DAC6CF42932 /* Check Pods Manifest.lock */,
 				EC5CA5001A9E623E00C0FE5E /* Sources */,
 				EC5CA5011A9E623E00C0FE5E /* Frameworks */,
 				EC5CA5021A9E623E00C0FE5E /* Resources */,
+				C925620D29B7DF8FD794282B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,9 +305,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6335FB1AAD4C610048A1F7 /* p4.png in Resources */,
+				EC6335F61AAD4C610048A1F7 /* greyzz_@2X.png in Resources */,
+				EC6335F51AAD4C610048A1F7 /* greyzz.png in Resources */,
+				EC6335F21AAD4C610048A1F7 /* crossword.png in Resources */,
+				EC6335D61AAD45620048A1F7 /* RobotoSlab-Regular.ttf in Resources */,
+				EC6336031AAD4C610048A1F7 /* squairy_light_@2X.png in Resources */,
 				EC5CA50F1A9E623E00C0FE5E /* Main.storyboard in Resources */,
+				EC6336021AAD4C610048A1F7 /* squairy_light.png in Resources */,
+				EC6336051AAD4C610048A1F7 /* wavegrid_@2X.png in Resources */,
+				EC6336001AAD4C610048A1F7 /* p6_@2X.png in Resources */,
+				EC6335F71AAD4C610048A1F7 /* kindajean.png in Resources */,
+				EC6335D51AAD45620048A1F7 /* RobotoSlab-Light.ttf in Resources */,
+				EC6335FD1AAD4C610048A1F7 /* p5.png in Resources */,
+				EC6335F11AAD4C610048A1F7 /* binding_light_@2X.png in Resources */,
+				EC6335F81AAD4C610048A1F7 /* kindajean_@2X.png in Resources */,
+				EC6335D41AAD45620048A1F7 /* Hill_House.otf in Resources */,
+				EC6336041AAD4C610048A1F7 /* wavegrid.png in Resources */,
+				EC6336011AAD4C610048A1F7 /* sos.png in Resources */,
 				EC5CA5141A9E623E00C0FE5E /* LaunchScreen.xib in Resources */,
+				EC6335F31AAD4C610048A1F7 /* fabric_of_squares_gray.png in Resources */,
+				EC6335FE1AAD4C610048A1F7 /* p5_@2X.png in Resources */,
 				EC5CA5111A9E623E00C0FE5E /* Images.xcassets in Resources */,
+				EC6335FC1AAD4C610048A1F7 /* p4_@2X.png in Resources */,
+				EC6335F01AAD4C610048A1F7 /* binding_light.png in Resources */,
+				EC6335F41AAD4C610048A1F7 /* fabric_of_squares_gray_@2X.png in Resources */,
+				EC6335FF1AAD4C610048A1F7 /* p6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +342,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B97F50DA0D745DAC6CF42932 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C925620D29B7DF8FD794282B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC5CA5001A9E623E00C0FE5E /* Sources */ = {
@@ -336,21 +505,28 @@
 		};
 		EC5CA5241A9E623E00C0FE5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83AF8415BC9F940BE964057D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Semana Santa/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Semana Santa/Semana Santa-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		EC5CA5251A9E623E00C0FE5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 039466A075663B1C3F01B0BC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Semana Santa/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Semana Santa/Semana Santa-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +583,7 @@
 				EC5CA5251A9E623E00C0FE5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC5CA5261A9E623E00C0FE5E /* Build configuration list for PBXNativeTarget "Semana SantaTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +592,7 @@
 				EC5CA5281A9E623E00C0FE5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
