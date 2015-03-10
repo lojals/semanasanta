@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0FD29F14499688ECA787EED6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AA069DD6FA3226EB19504F /* libPods.a */; };
+		EC2883321AAE584B0097C5D2 /* ViaCrusisVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2883311AAE584B0097C5D2 /* ViaCrusisVC.swift */; };
 		EC5CA50A1A9E623E00C0FE5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CA5091A9E623E00C0FE5E /* AppDelegate.swift */; };
 		EC5CA50C1A9E623E00C0FE5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CA50B1A9E623E00C0FE5E /* ViewController.swift */; };
 		EC5CA50F1A9E623E00C0FE5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5CA50D1A9E623E00C0FE5E /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 		EC6336031AAD4C610048A1F7 /* squairy_light_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335EB1AAD4C610048A1F7 /* squairy_light_@2X.png */; };
 		EC6336041AAD4C610048A1F7 /* wavegrid.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335EC1AAD4C610048A1F7 /* wavegrid.png */; };
 		EC6336051AAD4C610048A1F7 /* wavegrid_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6335ED1AAD4C610048A1F7 /* wavegrid_@2X.png */; };
+		ECC466D91AAE60EE00268C50 /* PagerControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC466D81AAE60EE00268C50 /* PagerControllerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,7 @@
 		039466A075663B1C3F01B0BC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		83AF8415BC9F940BE964057D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C5AA069DD6FA3226EB19504F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2883311AAE584B0097C5D2 /* ViaCrusisVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViaCrusisVC.swift; sourceTree = "<group>"; };
 		EC5CA5041A9E623E00C0FE5E /* Semana Santa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Semana Santa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5CA5081A9E623E00C0FE5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC5CA5091A9E623E00C0FE5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +90,7 @@
 		EC6335EB1AAD4C610048A1F7 /* squairy_light_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "squairy_light_@2X.png"; sourceTree = "<group>"; };
 		EC6335EC1AAD4C610048A1F7 /* wavegrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wavegrid.png; sourceTree = "<group>"; };
 		EC6335ED1AAD4C610048A1F7 /* wavegrid_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wavegrid_@2X.png"; sourceTree = "<group>"; };
+		ECC466D81AAE60EE00268C50 /* PagerControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerControllerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EC28832B1AAE54BC0097C5D2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EC2883311AAE584B0097C5D2 /* ViaCrusisVC.swift */,
+				ECC466D81AAE60EE00268C50 /* PagerControllerViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		EC5CA4FB1A9E623D00C0FE5E = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +152,7 @@
 		EC5CA5061A9E623E00C0FE5E /* Semana Santa */ = {
 			isa = PBXGroup;
 			children = (
+				EC28832B1AAE54BC0097C5D2 /* Classes */,
 				EC6335D01AAD45620048A1F7 /* Assets */,
 				EC5CA5091A9E623E00C0FE5E /* AppDelegate.swift */,
 				EC5CA50B1A9E623E00C0FE5E /* ViewController.swift */,
@@ -381,7 +395,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC466D91AAE60EE00268C50 /* PagerControllerViewController.swift in Sources */,
 				EC5CA50C1A9E623E00C0FE5E /* ViewController.swift in Sources */,
+				EC2883321AAE584B0097C5D2 /* ViaCrusisVC.swift in Sources */,
 				EC5CA50A1A9E623E00C0FE5E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
