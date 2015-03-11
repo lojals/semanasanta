@@ -80,9 +80,6 @@
                                                 <state key="normal" title="Button">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="gnR-zX-Vl2" kind="presentation" id="1dp-zB-WdM"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -187,7 +184,7 @@
         <!--Pager Controller View Controller-->
         <scene sceneID="THo-Cj-Lu9">
             <objects>
-                <viewController id="gnR-zX-Vl2" customClass="PagerControllerViewController" customModule="Semana_Santa" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PageController" id="gnR-zX-Vl2" customClass="PagerControllerViewController" customModule="Semana_Santa" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2Wg-uq-1cz"/>
                         <viewControllerLayoutGuide type="bottom" id="TIc-a7-wrl"/>
@@ -196,13 +193,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yMH-b4-zx1">
-                                <rect key="frame" x="182" y="-10" width="268" height="206"/>
-                                <color key="backgroundColor" red="0.1215686275" green="0.73725490199999999" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="75B-KY-i9f" customClass="GADBannerView">
+                                <rect key="frame" x="140" y="550" width="320" height="50"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="F8y-ly-nhN"/>
+                                    <constraint firstAttribute="width" constant="320" id="weZ-Zz-wLL"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="75B-KY-i9f" secondAttribute="centerX" id="Nsc-VE-6rg"/>
+                            <constraint firstItem="TIc-a7-wrl" firstAttribute="top" secondItem="75B-KY-i9f" secondAttribute="bottom" id="Xeh-yC-Ump"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="banner" destination="75B-KY-i9f" id="kPa-96-GVL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fgh-gB-uc4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -214,7 +222,7 @@
                 <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="HIC-Hr-LpK" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yGD-is-7dJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1591" y="417"/>
+            <point key="canvasLocation" x="1587" y="409"/>
         </scene>
         <!--Via CrusisVC-->
         <scene sceneID="EHV-rs-eOY">
@@ -227,13 +235,7 @@
                     <view key="view" contentMode="scaleToFill" id="VoL-H4-2eA">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hUZ-3y-hTp">
-                                <rect key="frame" x="98" y="51" width="124" height="125"/>
-                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dnQ-af-m3v" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -241,7 +243,4 @@
             <point key="canvasLocation" x="2214" y="417"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="1dp-zB-WdM"/>
-    </inferredMetricsTieBreakers>
 </document>

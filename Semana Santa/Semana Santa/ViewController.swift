@@ -16,14 +16,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var btnInfo: UIButton!
     @IBOutlet weak var lblYear: UILabel!
 
-    var primCol = UIColor.wetAsphaltColor()
-    var secuCol = UIColor.midnightBlueColor()
+    var primCol = UIColor.theme1()
+    var secuCol = UIColor.theme2()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "squairy_light")!)
         configBtn(btnViaCrusis)
         configBtn(btnWonders)
+        btnWonders.addTarget(self, action: Selector("goMonument:"), forControlEvents: UIControlEvents.TouchUpInside)
         lblLogo.textColor = primCol
         lblDesc.font = UIFont.lightFlatFontOfSize(13)
         lblYear.font = UIFont.lightFlatFontOfSize(10)
@@ -43,12 +44,23 @@ class ViewController: UIViewController {
         sender.setTitleColor(UIColor.cloudsColor(), forState: UIControlState.Highlighted)
     }
 
+    func goMonument(sender:UIButton){
+        var pager:PagerControllerViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PageController") as PagerControllerViewController
+        var conn = Connection()
+        pager.array = conn.getMonuments() ?? NSMutableArray()
+        self.presentViewController(pager, animated: true, completion: nil)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "monument"{
+            
+        }
+    }
+    
 }
 

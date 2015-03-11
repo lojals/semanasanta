@@ -4,3 +4,5 @@
 
 #import <FlatUIKit/FlatUIKit.h>
 #import "NSString+Icons.h"
+#import "sqlite3.h"
+@import GoogleMobileAds;

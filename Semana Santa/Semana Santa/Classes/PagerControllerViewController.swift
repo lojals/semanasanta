@@ -8,48 +8,57 @@
 
 import UIKit
 
-class PagerControllerViewController: UIViewController, UIPageViewControllerDataSource {
+class PagerControllerViewController: GenericViewController, UIPageViewControllerDataSource {
 
     var array:NSMutableArray!
     var pageViewController:UIPageViewController!
+    var btnBack:UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.patternColor()
         
-        array = NSMutableArray()
+        /*array = NSMutableArray()
         array.addObject("1")
         array.addObject("1")
         array.addObject("1")
         array.addObject("1")
+        array.addObject("1")
+        array.addObject("1")
+        array.addObject("1")*/
         
-        // Create page view controller
         self.pageViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PageViewController") as UIPageViewController
         self.pageViewController.dataSource = self
-        
-        //    PageContentViewController *startingViewController = [self viewControllerAtIndex:0];
         
         var startingViewController = self.viewControllerAtIndex(0)
         var viewControllers = NSMutableArray()
         viewControllers.addObject(startingViewController!)
         
         self.pageViewController.setViewControllers(viewControllers, direction: UIPageViewControllerNavigationDirection.Forward, animated: false, completion: nil)
+        self.pageViewController.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height - 55)
         
-        
-        // Change the size of page view controller
-        
-        
-        self.pageViewController.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height - 10);
         self.addChildViewController(pageViewController)
         self.view.addSubview(pageViewController.view)
         self.pageViewController.didMoveToParentViewController(self)
+        var timer = NSTimer.scheduledTimerWithTimeInterval(5, target: self, selector: Selector("someSelector"), userInfo: nil, repeats: false)
         
+        let grad1 = Gradient(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 64), type: "Top")
+        self.view.addSubview(grad1)
         
-        //self.navigationController.interactivePopGestureRecognizer.delegate = (id<UIGestureRecognizerDelegate>)self;
-
-        
-        
+        btnBack = UIButton(frame: CGRect(x: 0, y: 20, width: 45, height: 45))
+        btnBack.titleLabel?.font = UIFont.iconFontWithSize(26)
+        btnBack.setTitleColor(UIColor.theme1(), forState: UIControlState.Normal)
+        btnBack.setTitle(NSString.iconStringForEnum(FlatUIIcon.FUIArrowLeft), forState: UIControlState.Normal)
+        self.view.addSubview(btnBack)
     }
 
+    
+    func someSelector() {
+        self.interstitial.presentFromRootViewController(self)
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
@@ -61,6 +70,7 @@ class PagerControllerViewController: UIViewController, UIPageViewControllerDataS
         }
         var pageContentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PageContentViewController") as ViaCrusisVC
         pageContentViewController.pageIndex = index
+        pageContentViewController.array = array
         return pageContentViewController
     }
     
@@ -73,7 +83,6 @@ class PagerControllerViewController: UIViewController, UIPageViewControllerDataS
         if index == self.array.count{
             return nil
         }
-        
         return self.viewControllerAtIndex(index)
     }
     
@@ -83,16 +92,18 @@ class PagerControllerViewController: UIViewController, UIPageViewControllerDataS
             return nil
         }
         index = index - 1
-        
         return self.viewControllerAtIndex(index)
     }
     
+    
+    
     func presentationCountForPageViewController(pageViewController: UIPageViewController) -> Int {
-        return 12
+        return array.count
     }
     
     func presentationIndexForPageViewController(pageViewController: UIPageViewController) -> Int {
         return 0
     }
 
+    
 }
