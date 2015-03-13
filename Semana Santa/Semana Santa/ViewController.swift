@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var lblDesc: UILabel!
     @IBOutlet weak var btnInfo: UIButton!
     @IBOutlet weak var lblYear: UILabel!
-
+    var conn:Connection!
     var primCol = UIColor.theme1()
     var secuCol = UIColor.theme2()
     
@@ -24,14 +24,21 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "squairy_light")!)
         configBtn(btnViaCrusis)
         configBtn(btnWonders)
+        btnWonders.tag = 1
         btnWonders.addTarget(self, action: Selector("goMonument:"), forControlEvents: UIControlEvents.TouchUpInside)
+        btnViaCrusis.tag = 2
+        btnViaCrusis.addTarget(self, action: Selector("goMonument:"), forControlEvents: UIControlEvents.TouchUpInside)
         lblLogo.textColor = primCol
         lblDesc.font = UIFont.lightFlatFontOfSize(13)
         lblYear.font = UIFont.lightFlatFontOfSize(10)
-        
         btnInfo.titleLabel?.font = UIFont.iconFontWithSize(20)
         btnInfo.setTitle(NSString.iconStringForEnum(FlatUIIcon.FUIInfoCircle) , forState: UIControlState.Normal)
         btnInfo.setTitleColor(primCol, forState: UIControlState.Normal)
+        conn = Connection()
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
     func configBtn(sender:FUIButton){
@@ -46,21 +53,14 @@ class ViewController: UIViewController {
 
     func goMonument(sender:UIButton){
         var pager:PagerControllerViewController = self.storyboard?.instantiateViewControllerWithIdentifier("PageController") as PagerControllerViewController
-        var conn = Connection()
-        pager.array = conn.getMonuments() ?? NSMutableArray()
-        self.presentViewController(pager, animated: true, completion: nil)
+        pager.type = sender.tag
+        pager.array = sender.tag==1 ? conn.getMonuments() : conn.getViaCrusis()
+//        self.presentViewController(pager, animated: true, completion: nil)
+        self.showViewController(pager, sender: self)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "monument"{
-            
-        }
-    }
-    
 }
 

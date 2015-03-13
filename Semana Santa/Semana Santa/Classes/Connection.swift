@@ -17,7 +17,7 @@ class Connection: NSObject {
         super.init()
     }
     
-    // GET CATEGORIES
+    // GET MONUMENTS
     func getMonuments() -> NSMutableArray{
         var returnArray = NSMutableArray()
         let data = db.query("SELECT * FROM monuments")
@@ -46,7 +46,38 @@ class Connection: NSObject {
             }
             returnArray.addObject(monument)
         }
-        println("Encotnrados: \(data.count)")
+        return returnArray
+    }
+    
+    // GET VIACRUSIS
+    func getViaCrusis() -> NSMutableArray{
+        var returnArray = NSMutableArray()
+        let data = db.query("SELECT * FROM viacrusis")
+        for key in data{
+            var monument: Dictionary<String, String> = [:]
+            if let _id = key["id_day"] {
+                monument["ID"] = _id.asString()
+            }
+            if let name = key["alias"] {
+                monument["ALIAS"] = name.asString()
+            }
+            if let name = key["name"] {
+                monument["NAME"] = name.asString()
+            }
+            if let name = key["text_day"] {
+                monument["TEXT1"] = name.asString()
+            }
+            if let name = key["prays"] {
+                monument["PRAY1"] = name.asString()
+            }
+            if let name = key["text2_day"] {
+                monument["TEXT2"] = name.asString()
+            }
+            if let name = key["tit"] {
+                monument["TIT"] = name.asString()
+            }
+            returnArray.addObject(monument)
+        }
         return returnArray
     }
     

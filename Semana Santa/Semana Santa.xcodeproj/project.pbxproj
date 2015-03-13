@@ -61,6 +61,8 @@
 		EC7D45911AAFF4C700C27833 /* ch7.png in Resources */ = {isa = PBXBuildFile; fileRef = EC7D45831AAFF4C700C27833 /* ch7.png */; };
 		EC7D45921AAFF4C700C27833 /* ch7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC7D45841AAFF4C700C27833 /* ch7@2x.png */; };
 		ECC466D91AAE60EE00268C50 /* PagerControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC466D81AAE60EE00268C50 /* PagerControllerViewController.swift */; };
+		ECE69BA31AB2789300976376 /* ViaCrusisVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE69BA21AB2789300976376 /* ViaCrusisVC2.swift */; };
+		ECE69BA51AB27ABD00976376 /* GenericContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE69BA41AB27ABD00976376 /* GenericContentVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,6 +137,8 @@
 		EC7D45831AAFF4C700C27833 /* ch7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ch7.png; sourceTree = "<group>"; };
 		EC7D45841AAFF4C700C27833 /* ch7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ch7@2x.png"; sourceTree = "<group>"; };
 		ECC466D81AAE60EE00268C50 /* PagerControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerControllerViewController.swift; sourceTree = "<group>"; };
+		ECE69BA21AB2789300976376 /* ViaCrusisVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViaCrusisVC2.swift; sourceTree = "<group>"; };
+		ECE69BA41AB27ABD00976376 /* GenericContentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericContentVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,8 +178,10 @@
 				EC3113CC1AB0A77C00256C3C /* Gradient.swift */,
 				EC7D45701AAFE1AD00C27833 /* JIColors.swift */,
 				EC2883311AAE584B0097C5D2 /* ViaCrusisVC.swift */,
+				ECE69BA21AB2789300976376 /* ViaCrusisVC2.swift */,
 				ECC466D81AAE60EE00268C50 /* PagerControllerViewController.swift */,
 				EC7D45741AAFED6C00C27833 /* GenericViewController.swift */,
+				ECE69BA41AB27ABD00976376 /* GenericContentVC.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -503,6 +509,8 @@
 				EC3113D61AB0AB6E00256C3C /* Connection.swift in Sources */,
 				EC7D45731AAFE7DC00C27833 /* AppDelegate.swift in Sources */,
 				EC2883321AAE584B0097C5D2 /* ViaCrusisVC.swift in Sources */,
+				ECE69BA51AB27ABD00976376 /* GenericContentVC.swift in Sources */,
+				ECE69BA31AB2789300976376 /* ViaCrusisVC2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,9 +637,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jorge Raul Ovalle Zuleta (UGPQWP42UQ)";
 				INFOPLIST_FILE = "Semana Santa/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a1fd2fe2-eb5b-4712-8982-8c0d55696c02";
 				SWIFT_OBJC_BRIDGING_HEADER = "Semana Santa/Semana Santa-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -644,9 +654,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jorge Ovalle Z (QF2P6LAFBK)";
 				INFOPLIST_FILE = "Semana Santa/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d8249cea-f7e9-42eb-9a88-c102e9e5d5b8";
 				SWIFT_OBJC_BRIDGING_HEADER = "Semana Santa/Semana Santa-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
