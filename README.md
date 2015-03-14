@@ -11,7 +11,7 @@
 
 # Installation
 
-This project is using Cocoa Pods, to open it please use **Yo Intervengo.xcworkspace** and if you have dependencies problems execute the following command in the terminal
+This project is using Cocoa Pods, to open it please use **Semana Santa.xcworkspace** and if you have dependencies problems execute the following command in the terminal
 
 `pod install`
 
