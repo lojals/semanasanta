@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var btnWonders: FUIButton!
     @IBOutlet weak var lblLogo: UILabel!
     @IBOutlet weak var lblDesc: UILabel!
-    @IBOutlet weak var btnInfo: UIButton!
     @IBOutlet weak var lblYear: UILabel!
     var conn:Connection!
     var primCol = UIColor.theme1()
@@ -31,9 +30,6 @@ class ViewController: UIViewController {
         lblLogo.textColor = primCol
         lblDesc.font = UIFont.lightFlatFontOfSize(13)
         lblYear.font = UIFont.lightFlatFontOfSize(10)
-        btnInfo.titleLabel?.font = UIFont.iconFontWithSize(20)
-        btnInfo.setTitle(NSString.iconStringForEnum(FlatUIIcon.FUIInfoCircle) , forState: UIControlState.Normal)
-        btnInfo.setTitleColor(primCol, forState: UIControlState.Normal)
         conn = Connection()
     }
     

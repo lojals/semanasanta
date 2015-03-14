@@ -34,7 +34,7 @@ class ViaCrusisVC: GenericContentVC {
         imgChurch.center = CGPoint(x: scroll.frame.midX , y: 40 + imgChurch.frame.midY)
         scroll.addSubview(imgChurch)
  
-        lblTitle = UILabel(frame: CGRect(x: 15, y: imgChurch.frame.maxY + 8, width: 290, height: 16))
+        lblTitle = UILabel(frame: CGRect(x: 15, y: imgChurch.frame.maxY + 8, width: self.view.frame.width - 30, height: 16))
         lblTitle.text = ((array.objectAtIndex(pageIndex))["NAME"]) as? String
         lblTitle.textColor = UIColor.theme2()
         lblTitle.textAlignment = NSTextAlignment.Center
@@ -42,7 +42,7 @@ class ViaCrusisVC: GenericContentVC {
         scroll.addSubview(lblTitle)
 
         var txt1 = ((array.objectAtIndex(pageIndex))["DESCRIPTION"]) as? String
-        lblDescription = UILabel(frame: CGRect(x: 15, y: lblTitle.frame.maxY + 8, width: 290, height: heightForView(txt1!, font: UIFont.lightFlatFontOfSize(15), width: 290)))
+        lblDescription = UILabel(frame: CGRect(x: 15, y: lblTitle.frame.maxY + 8, width: self.view.frame.width - 30, height: heightForView(txt1!, font: UIFont.lightFlatFontOfSize(15), width: self.view.frame.width - 30)))
         lblDescription.text = txt1
         lblDescription.textColor = UIColor.theme1()
         lblDescription.numberOfLines = 0
@@ -51,7 +51,7 @@ class ViaCrusisVC: GenericContentVC {
         scroll.addSubview(lblDescription)
         
         txt1 = ((array.objectAtIndex(pageIndex))["PRAY1"]) as? String
-        lblPray1 = UILabel(frame: CGRect(x: 15, y: lblDescription.frame.maxY + 8, width: 290, height: heightForView(txt1!, font: UIFont.flatFontOfSize(16), width: 290)))
+        lblPray1 = UILabel(frame: CGRect(x: 15, y: lblDescription.frame.maxY + 8, width: self.view.frame.width - 30, height: heightForView(txt1!, font: UIFont.flatFontOfSize(16), width: self.view.frame.width - 30)))
         lblPray1.text = txt1
         lblPray1.textColor = UIColor.themeComplement()
         lblPray1.numberOfLines = 0
@@ -60,7 +60,7 @@ class ViaCrusisVC: GenericContentVC {
         scroll.addSubview(lblPray1)
         
         txt1 = ((array.objectAtIndex(pageIndex))["PRAY2"]) as? String
-        lblPray2 = UILabel(frame: CGRect(x: 15, y: lblPray1.frame.maxY + 8, width: 290, height: heightForView(txt1!, font: UIFont.flatFontOfSize(16), width: 290)))
+        lblPray2 = UILabel(frame: CGRect(x: 15, y: lblPray1.frame.maxY + 8, width: self.view.frame.width - 30, height: heightForView(txt1!, font: UIFont.flatFontOfSize(16), width: self.view.frame.width - 30)))
         lblPray2.text = txt1
         lblPray2.textColor = UIColor.theme1()
         lblPray2.numberOfLines = 0
@@ -69,7 +69,7 @@ class ViaCrusisVC: GenericContentVC {
         scroll.addSubview(lblPray2)
         
         txt1 = ((array.objectAtIndex(pageIndex))["PRAY3"]) as? String
-        lblPray3 = UILabel(frame: CGRect(x: 15, y: lblPray2.frame.maxY + 10, width: 290, height: heightForView(txt1!, font: UIFont.flatFontOfSize(16), width: 290)))
+        lblPray3 = UILabel(frame: CGRect(x: 15, y: lblPray2.frame.maxY + 10, width: self.view.frame.width - 30, height: heightForView(txt1!, font: UIFont.flatFontOfSize(16), width: self.view.frame.width - 30)))
         lblPray3.text = txt1
         lblPray3.textColor = UIColor.themeComplement()
         lblPray3.numberOfLines = 0
@@ -79,7 +79,7 @@ class ViaCrusisVC: GenericContentVC {
         
         
         txt1 = ((array.objectAtIndex(pageIndex))["TEXT3"]) as? String
-        lblText3 = UILabel(frame: CGRect(x: 15, y: lblPray3.frame.maxY + 10, width: 290, height: heightForView(txt1!, font: UIFont.flatFontOfSize(16), width: 290)))
+        lblText3 = UILabel(frame: CGRect(x: 15, y: lblPray3.frame.maxY + 10, width: self.view.frame.width - 30, height: heightForView(txt1!, font: UIFont.flatFontOfSize(16), width: self.view.frame.width - 30)))
         lblText3.text = txt1
         lblText3.textColor = UIColor.theme1()
         lblText3.numberOfLines = 0
